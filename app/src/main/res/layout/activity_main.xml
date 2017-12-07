@@ -7,7 +7,9 @@
     android:layout_height="match_parent"
     tools:context="com.prodevsmx.monti.ActivityMain">
 
+
     <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -16,8 +18,18 @@
         design:itemTextColor="@drawable/nav_item_color_state"
         >
 
-
-
     </android.support.design.widget.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/fragmentMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavView"
+        >
+
+    </FrameLayout>
+
+
+
 
 </RelativeLayout>

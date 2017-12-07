@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item
-        android:id="@+id/navProfile"
-        android:title="@string/strProfile"
-        android:icon="@drawable/ic_profile_48dp"
-        android:enabled="true"
-        />
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/navRequests"
         android:title="@string/strRequests"
         android:icon="@drawable/ic_request_48dp"
-        android:enabled="true"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/navProfile"
+        android:title="@string/strProfile"
+        android:icon="@drawable/ic_profile_48dp"
+        app:showAsAction="always"
         />
 
 </menu>
