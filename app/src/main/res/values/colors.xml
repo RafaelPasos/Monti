@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <!--General app colors-->
+    <color name="colorPrimary">#6C6B6C</color>
+    <color name="colorPrimaryDark">#403E44</color>
+    <color name="colorAccent">#3491ed</color>
+    <color name="colorAccentDark">#004ba0</color>
+    <color name="colorMinorDetail">#101010</color>
+    <color name="colorSpacerRecyclerElements">#D1D1D1</color>
+
+    <!--Search bar colors-->
+    <color name="colorInnerSearchBarGradientStart">#F1F1F1</color>
+    <color name="colorInnerSearchBarGradientEnd">#E1E1E1</color>
+    <color name="colorOuterSearchBar">#909090</color>
+
+    <!--Font colors-->
+    <color name="colorTextPrimary">#1976D2</color>
+    <color name="colorTextSecondary">#7C7C7C</color>
+    <color name="colorTextThird">#3E3E3E</color>
+    <color name="colorTextSearchBar">#798D96</color>
+
 </resources>

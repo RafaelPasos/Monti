@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Monti</string>
+    <string name="strRides">Rides</string>
+    <string name="strSearch_rides">Search Rides</string>
+    <string name="strPublish_ride">Publish Ride</string>
+    <string name="strProfile">Profile</string>
+    <string name="strRequests">Requests</string>
 </resources>

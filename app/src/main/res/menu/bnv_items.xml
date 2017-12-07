@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navRides"
+        android:title="@string/strRides"
+        android:icon="@drawable/ic_travel_48dp"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/navSearch"
+        android:title="@string/strSearch_rides"
+        android:icon="@drawable/ic_search_48dp"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/navPublish"
+        android:title="@string/strPublish_ride"
+        android:icon="@drawable/ic_add_48dp"
+        android:enabled="true"
+        />
+
+</menu>
