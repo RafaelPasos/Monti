@@ -3,7 +3,7 @@ package com.prodevsmx.monti;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class CreateRideActivity extends AppCompatActivity {
+public class ActivityCreateRide extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
