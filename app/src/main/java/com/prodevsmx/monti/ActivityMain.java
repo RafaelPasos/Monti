@@ -15,6 +15,12 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.prodevsmx.monti.fragments.FragmentProfile;
+import com.prodevsmx.monti.fragments.FragmentPublish;
+import com.prodevsmx.monti.fragments.FragmentRequests;
+import com.prodevsmx.monti.fragments.FragmentRides;
+import com.prodevsmx.monti.fragments.FragmentSearch;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
